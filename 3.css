@@ -1,0 +1,40 @@
+body {
+      background:#68cdd5
+}
+p {
+    text-align: center;
+    margin:2cm 15% 100px 15%;
+    color: #ffffff;
+    font-size:13px;
+    height:100px;
+}
+.s {
+    text-align: center;
+
+}
+.s img{
+    width:135px;
+    margin-top: 1.5cm;
+}
+
+
+.b {
+    display:flex;
+    justify-content:space-around;
+}
+.b img{
+       width: 45px;
+}
+.f img{
+    width:30px;
+
+}
+span{
+    color:#ffffff;
+    font-size: 13px;
+}
+.r{
+    display:flex;
+    justify-content:space-around;
+    margin-top:10px;
+}
