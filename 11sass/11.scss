@@ -1,0 +1,147 @@
+$header-background:#1aa0e8;
+$header-color:#fff;
+$body-background:#f0f4f7;
+$span-color:#666;
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 100%;
+    background: $body-background;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    background: $header-background;
+    .imagef{
+        height: 30px;
+        margin: 0 40px 0 10px;
+    }
+    span{
+        font-size: 18px;
+        color:$header-color;
+    }
+}
+.loginbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    margin-top: 1px;
+    background: $header-color;
+    img{
+        height: 25px;
+        padding: 0 20px;
+        border-right: 1px solid $body-background;
+    }
+    input{
+        width: 70%;
+        height: 100%;
+        margin-left: 25px;
+        border: 0;
+        font-size: 16px;
+        outline:none;
+    }
+    input::-webkit-input-placeholder{
+        font-size: 14px;
+    }
+}
+.but{
+    display: flex;
+    justify-content: center;
+    button{
+        width: 90%;
+        height: 50px;
+        margin-top: 20px;
+        border: 0;
+        border-radius: 7px;
+        background: $header-background;
+        font-size: 17px;
+        color:$header-color;
+    }
+}
+.joinus{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5%;
+    span{
+        font-size: 14px;
+        color:$span-color;
+        &:hover{
+            color:$header-background
+        }
+    }
+}
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 200px;
+    color:$span-color;
+    font-size: 14px;
+    div{
+        width: 40%;
+        height: 20px;
+        margin-bottom: 8px;
+        border-bottom:1px solid #bfc1c3 ;
+    }
+    span{
+        min-width: 100px;
+    }
+}
+login{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    .circle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        margin: 10px 6vw;
+        background: #67d255;
+        border-radius: 50%;
+        &:hover{
+            background-color: #91dc85;
+        }
+    }
+    .circle1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        margin: 10px 6vw;
+        background: #1fa0ef;
+        border-radius: 50%;
+        &:hover{
+            background-color: #65b6e8;
+        }
+    }
+    .circle2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        margin: 10px 6vw;
+        background: #f34757;
+        border-radius: 50%;
+        &:hover{
+            background-color: #e5636f;
+        }
+    }
+    img{
+        height: 20px;
+    }
+    div{
+        font-size: 12px;
+        text-align: center;
+    }
+}
