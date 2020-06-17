@@ -1,0 +1,130 @@
+body, footer .btn {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 480px;
+  min-width: 320px;
+}
+
+main {
+  background: #fbfbfb;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  background: #5fc0cd;
+  color: #fff;
+  font-size: 18px;
+}
+header img {
+  width: 15px;
+  height: 25px;
+  margin-left: 15px;
+}
+header p {
+  padding-left: 30px;
+}
+
+.sizes {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  background: url(12w/bjtp.png) no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 13px;
+}
+.sizes .imgt {
+  height: 100px;
+  margin: 20px;
+}
+.sizes p {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+.sizes .siz {
+  display: flex;
+  align-items: center;
+}
+.sizes .shape {
+  height: 12px;
+  margin-right: 10px;
+}
+
+.title, .content, .content-1 {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  border-bottom: 1px solid #e1e5e7;
+}
+
+.title-span {
+  padding-left: 15px;
+  margin-left: 20px;
+  border-left: 2px solid #5fc0cd;
+  font-size: 18px;
+}
+
+.content, .content-1 {
+  margin-left: 20px;
+}
+.content img, .content-1 img {
+  height: 16px;
+  margin: 15px;
+}
+.content span, .content-1 span {
+  padding-right: 20px;
+  border-right: 1px solid #e1e5e7;
+  font-size: 18px;
+}
+.content .span-1, .content-1 .span-1 {
+  border: 0;
+  color: black;
+}
+
+.content-1 span {
+  margin-left: 15px;
+  padding-right: 0;
+  color: #999;
+  min-width: 93px;
+}
+.content-1 .span-2 {
+  color: #e26163;
+}
+.content-1 .span-3 {
+  padding-top: 12px;
+  border: 0;
+  font-size: 13px;
+}
+
+footer {
+  height: 200px;
+  background: #fbfbfb;
+}
+footer .btn {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  bottom: 1px;
+}
+
+button, .button-1 {
+  width: 40%;
+  height: 45px;
+  border: 1px solid #5fc0cd;
+  border-radius: 5px;
+  font-size: 18px;
+  background: #fbfbfb;
+  color: #5fc0cd;
+}
+
+.button-1 {
+  background: #5fc0cd;
+  color: #fbfbfb;
+}
+
+/*# sourceMappingURL=12.css.map */

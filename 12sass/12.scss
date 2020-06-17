@@ -1,0 +1,125 @@
+$header-background:#5fc0cd;
+@mixin display {
+    display: flex;
+    align-items: center;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 480px;
+    min-width: 320px;
+}
+main{
+    background: #fbfbfb;
+}
+header{
+    @include display;
+    justify-content: space-between;
+    height: 55px;
+    background: $header-background;
+    color: #fff;
+    font-size: 18px;
+    img{
+        width: 15px;
+        height: 25px;
+        margin-left: 15px;
+    }
+    p{
+        padding-left: 30px;
+    }
+}
+.sizes{
+    @include display;
+    height: 200px;
+    background: url(12w/bjtp.png)no-repeat;
+    background-size:cover;
+    color:#fff;
+    font-size: 13px;
+    .imgt{
+        height: 100px;
+        margin: 20px;
+    }
+    p{
+        margin-bottom: 10px;
+        color:#fff;
+        font-size: 18px;
+    }
+    .siz{
+        @include display;
+    }
+    .shape{
+        height: 12px;
+        margin-right: 10px;
+    }
+}
+.title{
+    @include display;
+    height: 55px;
+    border-bottom: 1px solid #e1e5e7;
+}
+.title-span{
+    padding-left: 15px;
+    margin-left: 20px;
+    border-left: 2px solid $header-background;
+    font-size: 18px;
+}
+.content{
+    @extend .title;
+    margin-left: 20px;
+    img{
+        height: 16px;
+        margin: 15px;
+    }
+    span{
+        padding-right: 20px;
+        border-right: 1px solid #e1e5e7;
+        font-size: 18px;
+    }
+    .span-1{
+        border: 0;
+        color:black;
+    }
+}
+.content-1{
+    @extend .content;
+    span{
+        margin-left: 15px;
+        padding-right: 0;
+        color:#999;
+        min-width: 93px;
+    }
+    .span-2{
+        color:#e26163
+    }
+    .span-3{
+        padding-top: 12px;
+        border: 0;
+        font-size: 13px;
+    }
+}
+footer{
+    height: 200px;
+    background: #fbfbfb;
+    .btn{
+        @extend body;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+        bottom: 1px;
+    }
+}
+button{
+    width: 40%;
+    height: 45px;
+    border: 1px solid $header-background;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #fbfbfb;
+    color:$header-background;
+}
+.button-1{
+    @extend button;
+    background: $header-background;
+    color:#fbfbfb;
+}
