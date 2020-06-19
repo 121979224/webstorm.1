@@ -1,0 +1,143 @@
+body, header, .title, footer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 480px;
+  min-width: 320px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background: #29bde0;
+  color: #fff;
+  font-size: 20px;
+  position: fixed;
+  z-index: 10;
+}
+header img {
+  height: 33px;
+  margin: 10px;
+}
+
+.title {
+  height: 100px;
+  background: #29bde0;
+  position: fixed;
+  top: 60px;
+  z-index: 10;
+}
+.title .title-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  padding-left: 35px;
+  background: #b9e9f5;
+  color: #464646;
+  position: relative;
+}
+.title .title-1 img {
+  height: 40px;
+  position: absolute;
+  right: 14px;
+  cursor: pointer;
+}
+.title .title-1 audio {
+  width: 90px;
+  margin-right: -30px;
+  opacity: 0;
+}
+.title .triangle {
+  width: 0;
+  height: 0;
+  margin-left: 40px;
+  border: 9px solid;
+  border-color: #b9e9f5 transparent transparent transparent;
+}
+.title .span-1 {
+  margin-left: 40px;
+  font-size: 13px;
+  color: #fff;
+}
+
+main {
+  height: 750px;
+  background: #29bde0;
+  position: relative;
+  top: 160px;
+}
+
+.content, footer div {
+  display: flex;
+  justify-content: space-around;
+}
+.content .tips, footer div .tips {
+  background: #f5c97b;
+  width: 20%;
+  height: 0;
+  margin: 5% 0 6%;
+  padding-bottom: 20%;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  font-size: 19px;
+  color: #565656;
+  line-height: 70px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.content .tips .tips-1, footer div .tips .tips-1 {
+  height: 24px;
+  width: 100%;
+  background: rgba(50, 180, 180, 0.5);
+  color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+  position: absolute;
+  bottom: 0;
+}
+.content .tips:hover, footer div .tips:hover {
+  background: #ffdb9c;
+}
+.content img, footer div img {
+  width: 113%;
+  position: absolute;
+  bottom: -45%;
+  left: -6%;
+  display: none;
+}
+
+.tips:hover img {
+  display: block;
+}
+
+footer {
+  height: 120px;
+  background: #29bde0;
+  position: fixed;
+  bottom: 0;
+}
+footer div {
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  border-top: 2px solid #fff;
+}
+footer div a {
+  width: 90%;
+  height: 55px;
+  border: 0;
+  border-radius: 5px;
+  background: #fbb435;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 55px;
+}
+
+/*# sourceMappingURL=13-1.css.map */
