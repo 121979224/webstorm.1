@@ -1,0 +1,43 @@
+.rotation{
+    height: 31vw;
+    overflow: hidden;
+}
+.photo{
+    width: 400vw;
+    height: 31vw;
+    animation:lunbo 15s infinite;
+}
+.photo img{
+    width: 100vw;
+    height: 31vw;
+    float: left;
+}
+@keyframes lunbo {
+    0%,20%{
+        margin-left: 0;
+    }
+    25%,45%{
+        margin-left: -100vw;
+    }
+    50%,70%{
+        margin-left: -200vw;
+    }
+    75%,95%{
+        margin-left: -300vw;
+    }
+}
+.rotation .btns{
+    display: flex;
+    align-items: center;
+    width: 84px;
+    margin: auto;
+    position: relative;
+    bottom: 25px;
+}
+.rotation .btns div{
+    width: 15px;
+    height: 15px;
+    margin: 3px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
