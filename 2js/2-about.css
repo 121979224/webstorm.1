@@ -1,0 +1,75 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 480px;
+  min-width: 320px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background: #29bde0;
+  color: #fbfbfb;
+  font-size: 20px;
+}
+header img {
+  height: 30px;
+  margin-left: 10px;
+}
+header div {
+  margin-right: 26px;
+}
+
+main {
+  padding: 0 35px;
+  background: #fbfbfb;
+  line-height: 25px;
+}
+main .content {
+  padding: 55px 0;
+  border-bottom: 1px solid #c1c1c1;
+  color: #999;
+}
+main .content p {
+  margin: 0 0 20px;
+  font-size: 20px;
+  color: #111;
+}
+main .content-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  border-bottom: 1px solid #c1c1c1;
+  font-size: 19px;
+}
+main .content-1 img {
+  height: 20px;
+}
+main .content-1 .span1 {
+  color: #555;
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 247px;
+  background: #fbfbfb;
+}
+footer .two {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  color: #999;
+  text-align: center;
+}
+footer .two img {
+  height: 75px;
+  width: 75px;
+  margin: 10px auto;
+}
+
+/*# sourceMappingURL=2-about.css.map */

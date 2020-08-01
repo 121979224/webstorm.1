@@ -1,0 +1,64 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 480px;
+  min-width: 320px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background: #29bde0;
+  color: #fbfbfb;
+  font-size: 20px;
+}
+header img {
+  height: 30px;
+  margin-left: 10px;
+}
+header div {
+  margin-right: 26px;
+}
+
+main {
+  padding: 55px 35px;
+  background: #fbfbfb;
+  font-size: 20px;
+}
+main p {
+  margin: 0;
+}
+main .news {
+  padding-top: 10px;
+  color: #868686;
+  font-size: 15px;
+  line-height: 25px;
+}
+main .news .box {
+  height: 6px;
+  width: 6px;
+  background: #fbb435;
+  position: relative;
+  right: 14px;
+  top: 16px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 241px;
+  background: #fbfbfb;
+}
+footer button {
+  height: 50px;
+  width: 75%;
+  margin: 5px auto;
+  border: 0;
+  background: #fbb435;
+  color: #fbfbfb;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=2-help.css.map */
